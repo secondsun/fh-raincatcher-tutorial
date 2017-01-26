@@ -1,0 +1,25 @@
+{
+  "name": "raincatcher-todo-client",
+  "version": "1.0.0",
+  "description": "A tutorial to walk you through implementing a raincatcher client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify todo.js > main.js -d",
+    "watch-js": "watchify todo.js -o main.js -d"
+  },
+  "author": "Summers Pittman (supittma@redhat.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "fh": "^0.12.1-7",
+    "fh-wfm-mediator": "0.1.0-rc2",
+    "fh-wfm-workflow": "0.0.26",
+    "fh-wfm-workorder": "0.0.27",
+    "mediator-js": "^0.9.9"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "watchify": "latest"
+  }
+}
