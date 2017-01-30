@@ -12,7 +12,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "angular": "^1.6.1",
-    "fh-mbaas-api": "^6.1.4",
+    "browserify-shim": "^3.8.13",
+    "express": "^4.14.0",
+    "fh-js-sdk": "^2.18.1",
     "fh-wfm-mediator": "0.1.0-rc2",
     "fh-wfm-workflow": "0.0.26",
     "fh-wfm-workorder": "0.0.27",

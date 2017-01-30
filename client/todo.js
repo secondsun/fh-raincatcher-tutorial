@@ -1,4 +1,4 @@
-angular.module('todoApp', [require('fh-wfm-mediator'), require('fh-wfm-workorder'), require('fh-wfm-workflow'), require('fh-mbaas-api')])
+angular.module('todoApp', [require('fh-js-sdk'), require('fh-wfm-mediator'), require('fh-wfm-workorder'), require('fh-wfm-workflow')])
   .service('raincatcherService', function(workorderSync) {
 
       return { 
