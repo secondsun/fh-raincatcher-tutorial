@@ -1,2 +1,6 @@
 {
+  
+  "host": "http://localhost:3001",
+  "local": true
+  
 }

@@ -1,0 +1,28 @@
+{
+  "name": "raincatcher-todo-cloud",
+  "version": "1.0.0",
+  "description": "A tutorial to walk you through implementing a raincatcher client",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node application.js.js"
+  },
+  "author": "Summers Pittman (supittma@redhat.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "1.16.0",
+    "config-chain": "1.1.11",    
+    "cors": "2.8.1",
+    "fh-mbaas-api": "6.1.4",
+    "fh-wfm-mediator": "0.1.0-rc2",
+    "fh-wfm-workflow": "0.0.26",
+    "fh-wfm-workorder": "0.0.27",
+    "hiredis": "^0.5.0",
+    "mediator-js": "^0.9.9"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "watchify": "latest"
+  }
+}

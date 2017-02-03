@@ -11,15 +11,21 @@
   "author": "Summers Pittman (supittma@redhat.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "angular": "^1.6.1",
+    "angular": "^1.5.11",
+    "async": "^2.1.4",
     "browserify-shim": "^3.8.13",
+    "cors": "^2.8.1",
     "express": "^4.14.0",
     "fh-js-sdk": "^2.18.1",
     "fh-wfm-mediator": "0.1.0-rc2",
+    "fh-wfm-result": "0.0.16",
+    "fh-wfm-sync": "0.0.16",
     "fh-wfm-workflow": "0.0.26",
     "fh-wfm-workorder": "0.0.27",
     "hiredis": "^0.5.0",
-    "mediator-js": "^0.9.9"
+    "mediator-js": "^0.9.9",
+    "moment": "^2.17.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "browserify": "latest",
